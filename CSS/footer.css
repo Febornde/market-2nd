@@ -25,6 +25,22 @@ footer {
   width: 45px;
 }
 
+.footer-icons__img:hover {
+  animation: 2s icons-move-up infinite;
+}
+
+@keyframes icons-move-up {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .footer-desc {
   font-size: 10px;
   font-weight: bold;
